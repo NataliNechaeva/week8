@@ -1,0 +1,28 @@
+.jumbotron,.row {
+margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.lead {
+    margin-top: 30px;
+}
+.card-text {
+    font-size: 1.2em;
+}
+.navbar-brand {
+    margin-left: 15%;
+}
+.header {
+    margin-right: 15%;
+
+}
+.nav-link {
+    color: grey;
+    
+}
+.nav-link:hover {
+        color: white;
+}
+.footer {
+    height: 100px;
+}
