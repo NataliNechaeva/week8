@@ -1,17 +1,58 @@
-.navbar-brand {
-    font-family: 'Roboto Slab', serif;
-    font-size: 16px;
-    color: #000000;
-    padding-top: 0%;
-    padding-bottom: 0%;
-}
 .vr {
+    height: 100%;
+}
+.vr_header {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 30% 1fr;
+    gap: 2rem;
+}
+
+.vr_header_center {
+padding-left: 30%;
+
+}
+.vr_header_center_name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    color: #000000;
+    border: #5222D0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.vr_header_logo {
+padding-left: 15%;
+}
+#buy {
+    margin-left: 80%;
+}
+button {
+    font-family: 'Roboto Slab', serif;
+    background-color: #5222D0;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 40px;
+}
+.vr_header_button {
+    font-size: 13px;
+    width: 9em;
+}
+.vr_jumbotron_button {
+    font-size: 35px;
+    font-weight: 400;
+    width: 9em;
+    height: 2em;
+}
+.vr_main {
 display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-template-rows: 1fr 15%;
 padding-top: 0%;
 }
-
+.vr_jumbotron_text {
+    display: grid;
+    grid-template-rows: 1fr 25% 25%;
+}
 .vr_jumbotron {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
@@ -31,62 +72,69 @@ padding-top: 0%;
     font-size: 20px;
 }
 
-.lead {
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    padding-right: 20%;
-}
-.jumbotron-heading,h1 {
+.vr_jumbotron_heading, h1 {
     font-family: 'Roboto Slab', sans-serif;
     font-size: 60px;
+
 }
-.my-2 {
+.vr_jumbotron_text {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
 }
-.scope {
+.vr_scope {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 43% 1fr 1fr;
+    grid-template-rows: 38% 1fr 1fr;
     padding-left: 10%;
 }
-.scope_card_text {
+.vr_scope_card_text {
     font-size: 20px;
-    line-height: 1.5;
     padding-right: 30%;
 }
-.scope_heading {
+.vr_scope_heading {
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
     font-weight: bold; 
     padding-left: 10%;
     padding-top: 0%;
 }
-.scope_card_heading {
+.vr_scope_card_heading {
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
     font-weight: bold; 
 }
-.scope_form {
+.vr_scope_form {
+    display: grid;
+    grid-template-rows: 25% 25% 1fr;
+    gap: 1em;
     background-color: #EC615B;
     width: 70%;
 }
-.form-label {
+.vr_form_label {
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
     color: #FFFFFF;
 }
-.scope-button {
+.vr_scope_button {
     font-family: 'Roboto Slab', serif;
     font-size: 13px;
+    width: 8em;
+    height: 3em;
 }
-.btn {
-    background: #5222D0;
-    border: none;
+.vr_footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 17%;
 }
-.nav-link {
+.vr_footer_nav {
     color: #5222D0;
+    list-style-type: none;
+    text-decoration: none;
 }
 #exampleInputEmail1 {
-    width: 40%;
+    width: 80%;
+}
+#footer {
+    width: 50%;
+    padding-left: 12%;
 }
